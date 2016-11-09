@@ -10,6 +10,7 @@ int main(int argc, char *argv[])
 		{
 			case 'x':
 				xflg=1;
+				printf("optarg=%s\n",optarg);
 				break;
 			case 'y':
 				yflg=1;

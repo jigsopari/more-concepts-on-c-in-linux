@@ -16,3 +16,9 @@ sleep(1);
 }
 	
 }
+
+gcc -o sg signal.c
+run by ./sg
+ps -aux | grep sg---- and we get the pid with this
+kill -15 pid
+kill -9 pid

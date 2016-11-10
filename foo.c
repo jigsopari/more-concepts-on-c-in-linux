@@ -1,10 +1,20 @@
 #include<stdio.h>
-int add(int a,int b);
+#include<stdlib.h>
+#include<assert.h>
+
 int main(int argc,char *argv[])
 {
-int t;
-t=add(5,7);
-printf("total=%d\n",t);
+int i;
+printf("begin....\n");
+/*abort();*/
+for(i=0;i<=10;i++)
+{
+ printf("i=%d\n",i);
+ assert(i<=5);
+}
+
+
+printf("end ...\n");
 return 0;
 }
 
